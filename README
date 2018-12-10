@@ -1,0 +1,8 @@
+@Author: Yifan Mei
+
+################
+In this project, I used JAVA to generate an ID3 algorithm of building decision tree. To be more precise, the main processes are as following:
+
+1. Self define function readData in file dtlearn.java to read ".arff" data. We have 2 pairs of data as testcases, one pair is diabetes_train.arff and diabetes_test.arff, the other is heart_train.arff and heart_test.arff. The first step of the project is to self build function to read data in .arff files.
+2. generate decision tree data structure in class named DecisionTreeNode in file DecisionTreeNode.java
+3. implement ID3 algorithm and its prediction in dtlearn.java
